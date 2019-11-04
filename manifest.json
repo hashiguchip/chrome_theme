@@ -1,0 +1,44 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "hashiguchip",
+    "theme": {
+        "images": {
+            "theme_frame": "./images/black.png",
+            "theme_frame_inactive": "./images/black.png",
+            "theme_frame_overlay": "./images/main.jpg",
+            "theme_frame_incognito": "./images/main.png",
+            "theme_frame_incognito_overlay": "./images/main.jpg",
+            "theme_toolbar": "./images/blue.png",
+            "theme_ntp_background": "./images/background.png",
+            "theme_tab_background": "./images/deep_red.png",
+            "theme_window_control_background": "./images/blue.png"
+        },
+        "colors": {
+            "frame": [255, 249, 238],
+            "toolbar": [207, 221, 192],
+            "ntp_text": [255, 249, 238],
+            "ntp_link": [36, 70, 0],
+            "ntp_section": [207, 221, 192],
+            "tab_text": [255, 249, 238],
+            "bookmark_text": [255, 249, 238],
+            "ntp_section_text": [255, 249, 238],
+            "ntp_section_link": [255, 249, 238],
+            "tab_background_text": [255, 249, 238],
+            "button_background ": [255, 249, 238]
+        },
+        "tints": {
+            "frame": [-1.0, -1.0, -1.0],
+            "frame_inactive": [-1.0, -1.0, -1.0],
+            "frame_incognito": [-1.0, -1.0, -1.0],
+            "frame_incognito_inactive": [-1.0, -1.0, -1.0],
+            "background_tab": [-1.0, -1.0, -1.0],
+            "buttons": [ 0.0, 0.0, 1.0]
+        },
+        "properties": {
+            "ntp_background_alignment": "center",
+            "ntp_background_repeat": "no-repeat",
+            "ntp_logo_alternate": 1
+        }
+    }
+}
